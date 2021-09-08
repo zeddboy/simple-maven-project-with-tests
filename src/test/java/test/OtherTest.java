@@ -25,11 +25,15 @@
 package test;
 
 import org.junit.Test;
-
+import org.junit.Assert
 public class OtherTest extends Base {
 
     @Test public void mytest() {
+    Assert.assertEquals(true,false);
         run();
+    }
+    @Test public void simpleTest(){
+    System.out.println("test case ran");
     }
 
 }
