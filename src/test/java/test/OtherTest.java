@@ -25,7 +25,7 @@
 package test;
 
 import org.junit.Test;
-import org.junit.Assert
+import org.junit.Assert;
 public class OtherTest extends Base {
 
     @Test public void mytest() {
